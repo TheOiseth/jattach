@@ -2,7 +2,7 @@
 
 ### JVM Dynamic Attach utility
 
-The utility to send commands to remote JVM via Dynamic Attach mechanism.
+The utility to send commands to a JVM process via Dynamic Attach mechanism.
 
 All-in-one **jmap + jstack + jcmd + jinfo** functionality in a single tiny program.  
 No installed JDK required, works with just JRE. Supports Linux containers.
@@ -66,3 +66,11 @@ On Alpine Linux, you can use the following command to install `jattach` package 
 [jattach](https://aur.archlinux.org/packages/jattach/) package can be installed from [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository) using one of [AUR helpers](https://wiki.archlinux.org/index.php/AUR_helpers), e.g., `yay`:
 
     $ yay -S jattach
+
+#### Debian Linux
+
+On Debian Linux, you can use the following command to install `jattach` from the [official repository](https://packages.debian.org/search?keywords=jattach):
+
+    $ apt install jattach
+
+Packages are provided for **bullseye** (stable), **bookworm** (testing) and **sid** (unstable).
